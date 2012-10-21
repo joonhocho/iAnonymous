@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30BE147813874E890069F164 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BE147713874E890069F164 /* UIKit.framework */; };
+		30BE147A13874E890069F164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BE147913874E890069F164 /* Foundation.framework */; };
+		30BE147C13874E890069F164 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BE147B13874E890069F164 /* CoreGraphics.framework */; };
+		30BE148213874E890069F164 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30BE148013874E890069F164 /* InfoPlist.strings */; };
+		30BE148513874E890069F164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BE148413874E890069F164 /* main.m */; };
+		30BE148813874E890069F164 /* WebBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BE148713874E890069F164 /* WebBrowserAppDelegate.m */; };
+		30BE148B13874E890069F164 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BE148913874E890069F164 /* MainWindow.xib */; };
+		30BE148E13874E890069F164 /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BE148D13874E890069F164 /* WebBrowserViewController.m */; };
+		30BE149113874E890069F164 /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BE148F13874E890069F164 /* WebBrowserViewController.xib */; };
+		30BE149813874E890069F164 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BE147713874E890069F164 /* UIKit.framework */; };
+		30BE149913874E890069F164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BE147913874E890069F164 /* Foundation.framework */; };
+		30BE149A13874E890069F164 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BE147B13874E890069F164 /* CoreGraphics.framework */; };
+		30BE14A213874E890069F164 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30BE14A013874E890069F164 /* InfoPlist.strings */; };
+		30BE14A513874E890069F164 /* WebBrowserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 30BE14A413874E890069F164 /* WebBrowserTests.h */; };
+		30BE14A713874E890069F164 /* WebBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BE14A613874E890069F164 /* WebBrowserTests.m */; };
+		DFE356271633A36000585222 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE356261633A36000585222 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30BE149B13874E890069F164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30BE146A13874E890069F164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30BE147213874E890069F164;
+			remoteInfo = WebBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30BE147313874E890069F164 /* WebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BE147713874E890069F164 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30BE147913874E890069F164 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30BE147B13874E890069F164 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30BE147F13874E890069F164 /* WebBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebBrowser-Info.plist"; sourceTree = "<group>"; };
+		30BE148113874E890069F164 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30BE148313874E890069F164 /* WebBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		30BE148413874E890069F164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30BE148613874E890069F164 /* WebBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserAppDelegate.h; sourceTree = "<group>"; };
+		30BE148713874E890069F164 /* WebBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserAppDelegate.m; sourceTree = "<group>"; };
+		30BE148A13874E890069F164 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		30BE148C13874E890069F164 /* WebBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		30BE148D13874E890069F164 /* WebBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
+		30BE149013874E890069F164 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WebBrowserViewController.xib; sourceTree = "<group>"; };
+		30BE149713874E890069F164 /* WebBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BE149F13874E890069F164 /* WebBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		30BE14A113874E890069F164 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30BE14A313874E890069F164 /* WebBrowserTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
+		30BE14A413874E890069F164 /* WebBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserTests.h; sourceTree = "<group>"; };
+		30BE14A613874E890069F164 /* WebBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserTests.m; sourceTree = "<group>"; };
+		DFE356261633A36000585222 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30BE147013874E890069F164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BE147813874E890069F164 /* UIKit.framework in Frameworks */,
+				30BE147A13874E890069F164 /* Foundation.framework in Frameworks */,
+				30BE147C13874E890069F164 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BE149313874E890069F164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BE149813874E890069F164 /* UIKit.framework in Frameworks */,
+				30BE149913874E890069F164 /* Foundation.framework in Frameworks */,
+				30BE149A13874E890069F164 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30BE146813874E890069F164 = {
+			isa = PBXGroup;
+			children = (
+				DFE356261633A36000585222 /* Default-568h@2x.png */,
+				30BE147D13874E890069F164 /* WebBrowser */,
+				30BE149D13874E890069F164 /* WebBrowserTests */,
+				30BE147613874E890069F164 /* Frameworks */,
+				30BE147413874E890069F164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30BE147413874E890069F164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30BE147313874E890069F164 /* WebBrowser.app */,
+				30BE149713874E890069F164 /* WebBrowserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BE147613874E890069F164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BE147713874E890069F164 /* UIKit.framework */,
+				30BE147913874E890069F164 /* Foundation.framework */,
+				30BE147B13874E890069F164 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30BE147D13874E890069F164 /* WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				30BE148613874E890069F164 /* WebBrowserAppDelegate.h */,
+				30BE148713874E890069F164 /* WebBrowserAppDelegate.m */,
+				30BE148913874E890069F164 /* MainWindow.xib */,
+				30BE148C13874E890069F164 /* WebBrowserViewController.h */,
+				30BE148D13874E890069F164 /* WebBrowserViewController.m */,
+				30BE148F13874E890069F164 /* WebBrowserViewController.xib */,
+				30BE147E13874E890069F164 /* Supporting Files */,
+			);
+			path = WebBrowser;
+			sourceTree = "<group>";
+		};
+		30BE147E13874E890069F164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30BE147F13874E890069F164 /* WebBrowser-Info.plist */,
+				30BE148013874E890069F164 /* InfoPlist.strings */,
+				30BE148313874E890069F164 /* WebBrowser-Prefix.pch */,
+				30BE148413874E890069F164 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30BE149D13874E890069F164 /* WebBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				30BE14A413874E890069F164 /* WebBrowserTests.h */,
+				30BE14A613874E890069F164 /* WebBrowserTests.m */,
+				30BE149E13874E890069F164 /* Supporting Files */,
+			);
+			path = WebBrowserTests;
+			sourceTree = "<group>";
+		};
+		30BE149E13874E890069F164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30BE149F13874E890069F164 /* WebBrowserTests-Info.plist */,
+				30BE14A013874E890069F164 /* InfoPlist.strings */,
+				30BE14A313874E890069F164 /* WebBrowserTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30BE147213874E890069F164 /* WebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BE14AA13874E890069F164 /* Build configuration list for PBXNativeTarget "WebBrowser" */;
+			buildPhases = (
+				30BE146F13874E890069F164 /* Sources */,
+				30BE147013874E890069F164 /* Frameworks */,
+				30BE147113874E890069F164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebBrowser;
+			productName = WebBrowser;
+			productReference = 30BE147313874E890069F164 /* WebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30BE149613874E890069F164 /* WebBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BE14AD13874E890069F164 /* Build configuration list for PBXNativeTarget "WebBrowserTests" */;
+			buildPhases = (
+				30BE149213874E890069F164 /* Sources */,
+				30BE149313874E890069F164 /* Frameworks */,
+				30BE149413874E890069F164 /* Resources */,
+				30BE149513874E890069F164 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30BE149C13874E890069F164 /* PBXTargetDependency */,
+			);
+			name = WebBrowserTests;
+			productName = WebBrowserTests;
+			productReference = 30BE149713874E890069F164 /* WebBrowserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30BE146A13874E890069F164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = N/A;
+			};
+			buildConfigurationList = 30BE146D13874E890069F164 /* Build configuration list for PBXProject "WebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30BE146813874E890069F164;
+			productRefGroup = 30BE147413874E890069F164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30BE147213874E890069F164 /* WebBrowser */,
+				30BE149613874E890069F164 /* WebBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30BE147113874E890069F164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BE148213874E890069F164 /* InfoPlist.strings in Resources */,
+				30BE148B13874E890069F164 /* MainWindow.xib in Resources */,
+				30BE149113874E890069F164 /* WebBrowserViewController.xib in Resources */,
+				DFE356271633A36000585222 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BE149413874E890069F164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BE14A213874E890069F164 /* InfoPlist.strings in Resources */,
+				30BE14A513874E890069F164 /* WebBrowserTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30BE149513874E890069F164 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30BE146F13874E890069F164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BE148513874E890069F164 /* main.m in Sources */,
+				30BE148813874E890069F164 /* WebBrowserAppDelegate.m in Sources */,
+				30BE148E13874E890069F164 /* WebBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BE149213874E890069F164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BE14A713874E890069F164 /* WebBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30BE149C13874E890069F164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30BE147213874E890069F164 /* WebBrowser */;
+			targetProxy = 30BE149B13874E890069F164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30BE148013874E890069F164 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BE148113874E890069F164 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30BE148913874E890069F164 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BE148A13874E890069F164 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		30BE148F13874E890069F164 /* WebBrowserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BE149013874E890069F164 /* en */,
+			);
+			name = WebBrowserViewController.xib;
+			sourceTree = "<group>";
+		};
+		30BE14A013874E890069F164 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BE14A113874E890069F164 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30BE14A813874E890069F164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30BE14A913874E890069F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		30BE14AB13874E890069F164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebBrowser/WebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "WebBrowser/WebBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30BE14AC13874E890069F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebBrowser/WebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "WebBrowser/WebBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30BE14AE13874E890069F164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebBrowser.app/WebBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebBrowserTests/WebBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "WebBrowserTests/WebBrowserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		30BE14AF13874E890069F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebBrowser.app/WebBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebBrowserTests/WebBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "WebBrowserTests/WebBrowserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30BE146D13874E890069F164 /* Build configuration list for PBXProject "WebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BE14A813874E890069F164 /* Debug */,
+				30BE14A913874E890069F164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BE14AA13874E890069F164 /* Build configuration list for PBXNativeTarget "WebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BE14AB13874E890069F164 /* Debug */,
+				30BE14AC13874E890069F164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BE14AD13874E890069F164 /* Build configuration list for PBXNativeTarget "WebBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BE14AE13874E890069F164 /* Debug */,
+				30BE14AF13874E890069F164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30BE146A13874E890069F164 /* Project object */;
+}
